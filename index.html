@@ -15,14 +15,14 @@
             <form>
                 <label class="titulo2" for="frase">Ingresa tu mensaje</label>
                 <textarea class="cuadro_texto" id="frase"  placeholder="Ingrese texto sin mayusculas ni acentos" autofocus></textarea>
-                <button class="boton" type="button" onclick="Encriptar(frase.value)">Encriptar</button>
-                <button class="boton" type="button" onclick="Desencriptar(frase.value)">Desencriptar</button>
+                <button class="boton" id="encriptar" type="button">Encriptar</button>
+                <button class="boton" id="desencriptar" type="button">Desencriptar</button>
             </form>
         </section>
         <section class="contenedor" id="contenedor2">
             <label class="titulo2" for="resultado">Mensaje nuevo</label>
             <textarea class="cuadro_texto" id="resultado" readonly></textarea>
-            <button class="boton" onclick="Copiar()" type="button">Copiar</button>
+            <button class="boton" id="copiar" type="button">Copiar</button>
         </section>
     </main>
     <footer class="pie">
